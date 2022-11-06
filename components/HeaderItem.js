@@ -7,7 +7,7 @@ const HeaderItem = ({title,Icon}) => {
 
         <Icon className="h-8 mb-1 group-hover:animate-bounce" />
         
-        <p className='opacity-0 tracking-widest group-hover:opacity-100 '>{title}</p>
+        <p className='opacity-0 tracking-widest group-hover:opacity-100  transition ease-in-out duration-500'>{title}</p>
     
     </div>
   )
